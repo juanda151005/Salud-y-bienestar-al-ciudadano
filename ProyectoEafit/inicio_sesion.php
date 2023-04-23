@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio Sesion</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="inicio_sesion.css">
 </head>
 <body id="principal">
@@ -37,7 +37,7 @@
                         $resultado = $con->query($consulta);
 
                         if($resultado->num_rows==1){
-                            header("Location:error_page.html");
+                            header("Location:inicio.php");
                         } else{
                             echo "Usuario incorrecto";
                         }

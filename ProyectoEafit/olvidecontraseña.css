@@ -1,5 +1,8 @@
 #principal {
   background-image: url(https://www.teahub.io/photos/full/188-1886212_ios-13-blue-gradient-abstract-4k-hd2019-ios.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 body {
   justify-content: center;

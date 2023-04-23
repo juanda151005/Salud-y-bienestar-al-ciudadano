@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Busca tu hospital</title>
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   		crossorigin=""/>		
+	<link rel="stylesheet" type="text/css" href="mapa2.css"/>	
+
+	<h1>Busca un hospital disponible segun tu EPS:</h1>
+	<select name="select-location" id="select-location">
+		<option value="-1">Seleccione un hospital:</option>
+		<option value="6.276869408163879, -75.57970829351095">HOSPITAL PABLO TOBON URIBE</option>
+		<option value="6.286463396603629, -75.57412958255185">HOSPITAL LA MARIA</option>	
+		<option value="6.224943066873488, -75.59896638762768">HOSPITAL GENERAL DE MEDELLIN SEDE LA 80</option>
+		<option value="6.233827048346009, -75.57324993306963">HOSPITAL GENERAL DE MEDELLIN</option>
+		<option value="6.261214191883203, -75.56540223920933">HOSPITAL ALMA MATER DE ANTIOQUIA</option>
+		<option value="6.248908369418743, -75.56449493694295">CLINICA SOMA S.A</option>		
+		<option value="6.232896986252, -75.58436396236209">CLINICA MEDELLIN OCCIDENTE</option>		
+		<option value="6.273575294742656, -75.5782248834224">IPS SURA CORDOBA</option>		
+		<option value="6.2218485027709125, -75.57489693722871">CLINICA DEL PRADO MEDELLIN</option>		
+		<option value="6.255214696883168, -75.5564201213459">CLINICA EL ROSARIO</option>		
+		<option value="6.213937023909059, -75.59545966464161">CLINICA LAS AMERICAS</option>				
+	</select>
+	<div id="map"></div>
+
+</head>
+<body>	
+
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   		crossorigin=""></script>   		
+	
+	<script src="mapa2.js"></script>
+</body>
+</html>
