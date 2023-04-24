@@ -1,11 +1,10 @@
-#principal {
-    background-image: url(https://www.teahub.io/photos/full/188-1886212_ios-13-blue-gradient-abstract-4k-hd2019-ios.jpg);
-}
+
 body {
-    justify-content: center;
-    padding: auto;
-    
-    
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(fondo.jpg);
+  justify-content: center;
+  padding: auto;  
 }
 @font-face {
     font-family: "San Francisco Display Ultralight";
